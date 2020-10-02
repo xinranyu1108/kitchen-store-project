@@ -1,0 +1,22 @@
+NODEJS BACKEND:
+
+mysql2 library
+express library
+env for environment properties (.env) (google)
+
+Directory Structure:
+#for required resources, define api resources for handling HTTP calls
+/kitchenApi.js
+
+#handles restAPI calls
+/api/kitchenItems.js
+/api/kitchenLocations.js
+/api/itemCategories.js
+
+#Handles mysql data
+/libs/kitchenItems.js
+/libs/kitchenCategories.js
+
+1) Fill database with some mock data
+2) pull from library
+3) use api to call library function to pull data to browser (client)
